@@ -1,0 +1,25 @@
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+
+
+<!-- Core build with no theme, formatting, non-essential modules -->
+<link href="//cdn.quilljs.com/{{quill_version}}/quill.core.css" rel="stylesheet">
+<script src="//cdn.quilljs.com/{{quill_version}}/quill.core.js"></script>
+
+<!-- Main Quill library -->
+<script src="//cdn.quilljs.com/{{quill_version}}/quill.js"></script>
+<script src="//cdn.quilljs.com/{{quill_version}}/quill.min.js"></script>
+
+<!-- Theme included stylesheets -->
+<link href="//cdn.quilljs.com/{{quill_version}}/quill.snow.css" rel="stylesheet">
+<link href="//cdn.quilljs.com/{{quill_version}}/quill.bubble.css" rel="stylesheet">
+
+<style>
+    {{tabsCSS|safe}}
+    {{viewQuillCSS|safe}}
+</style>
+<script>
+    {{editorJS|safe}}
+    {{tabsJS|safe}}
+</script>

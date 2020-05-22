@@ -1,0 +1,8 @@
+To run example, first of all install requirements with
+
+pip install sanic-quill
+
+
+When go to http://0.0.0.0:5060/ to see index page with list of articles.
+
+Click on 'Edit Post' near any article
